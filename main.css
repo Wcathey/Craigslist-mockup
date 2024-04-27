@@ -1,0 +1,153 @@
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+
+
+}
+
+
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #800080;
+  font-weight: bold;
+}
+a:visited {
+  color: #800080;
+}
+ul {
+  padding: 0px;
+}
+
+ul > li{
+  list-style: none;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar,
+#center,
+#rightbar {
+  float:left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  }
+
+  #leftbar,
+  #rightbar {
+    width: 25%;
+    
+  }
+/*middle of the page*/
+  #center {
+    width: 50%;
+    border: solid 2px #464646;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 5px;
+
+  }
+
+  #center > div {
+    float: left;
+    width: 33%;
+  }
+
+  #topban h2 {
+    text-align: center;
+  }
+
+   ul.clfooter{
+   text-align: center;
+   border-top: 1px solid gray;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left:0px;
+   padding-right: 10px;
+  }
+/*how the links at the bottom of page layout*/
+  ul.clfooter > li {
+    display: inline;
+    padding-right: 5px;
+  }
+/*before the h4 with the class of ban, all the sub labels of sections*/
+h4.ban::before {
+content: '☮️'
+}
+/*entire cal itself*/
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+/*table itself, space around the links in cal*/
+table.cal {
+  border-collapse:collapse
+}
+/* calender links*/
+table a {
+  color: green;
+  font-weight: bold;
+}
+
+table a:hover {
+  background-color: lavender;
+}
+
+/* days*/
+th {
+  color: rgba(0, 0, 0, .5);
+  cursor:not-allowed;
+
+}
+
+
+
+/*highlight the today element on the calender*/
+td.today a {
+  background-color: darkviolet;
+  color: white;
+}
+/* end of webpage*/
+  footer {
+    clear: both;
+  }
